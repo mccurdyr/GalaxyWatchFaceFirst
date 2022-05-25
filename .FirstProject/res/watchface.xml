@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<watchface device_name="Gear S3, Gear Sport, Galaxy Watch, Galaxy Watch Active" height="360" name="watchface.xml" schema_version="1.5" screen_type="1" version="2.0.1" width="360">
+    <root height="360" type="normal" width="360" x="0" y="0">
+        <index end_angle="360.0" height="360" id="Index 360_modern" name="360_modern.png" number="1" pivot_x="180" pivot_y="180" start_angle="0.0" width="360" x="0" y="0"/>
+        <hand end_angle="720.0" end_value="24.0" height="360" id="Hand gentle_hr" name="gentle_hr.png" pivot_x="17" pivot_y="180" real="true" source="hour0-23.minute" start_angle="0.0" start_value="0.0" width="34" x="163" y="0"/>
+        <hand end_angle="360.0" end_value="60.0" height="360" id="Hand gentle_min" name="gentle_min.png" pivot_x="17" pivot_y="180" real="true" source="minute.second" start_angle="0.0" start_value="0.0" width="34" x="163" y="0"/>
+        <hand end_angle="360.0" end_value="60.0" height="360" id="Hand gentle_sec" name="gentle_sec.png" pivot_x="17" pivot_y="180" real="false" source="second" start_angle="0.0" start_value="0.0" width="34" x="163" y="0"/>
+        <image a="118" height="18" id="Image 2" name="img_txt_bpm_g.png" width="30" x="102" y="145"/>
+        <text a="128" alignment="16777216" b="255" bitmap_font="false" custom_font="false" default_locale="en_US" font_name="Tizen" g="255" height="41" id="Text 1" locale="en_US" r="255" size="36" source="heartrate.recent" style="0" text="Text" width="110" x="62" y="104"/>
+        <digitalclock alignment="16777216" b="255" bitmap_font="false" custom_font="false" default_locale="en_US" font_name="Tizen" g="255" height="32" id="Digitalclock 2" locale="en_US" r="255" size="24" style="0" text="dd" width="46" x="260" y="183"/>
+        <image height="92" id="Image 3" name="__COMPLICATION__0.17556917256121796/battery_bg.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 4" name="__COMPLICATION__0.17556917256121796/battery_01.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="10" start="5"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 5" name="__COMPLICATION__0.17556917256121796/battery_02.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="15" start="10"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 6" name="__COMPLICATION__0.17556917256121796/battery_03.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="20" start="15"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 7" name="__COMPLICATION__0.17556917256121796/battery_04.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="25" start="20"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 8" name="__COMPLICATION__0.17556917256121796/battery_05.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="30" start="25"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 9" name="__COMPLICATION__0.17556917256121796/battery_06.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="35" start="30"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 10" name="__COMPLICATION__0.17556917256121796/battery_07.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="40" start="35"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 11" name="__COMPLICATION__0.17556917256121796/battery_08.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="45" start="40"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 12" name="__COMPLICATION__0.17556917256121796/battery_09.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="50" start="45"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 13" name="__COMPLICATION__0.17556917256121796/battery_10.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="55" start="50"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 14" name="__COMPLICATION__0.17556917256121796/battery_11.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="60" start="55"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 15" name="__COMPLICATION__0.17556917256121796/battery_12.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="65" start="60"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 16" name="__COMPLICATION__0.17556917256121796/battery_13.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="70" start="65"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 17" name="__COMPLICATION__0.17556917256121796/battery_14.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="75" start="70"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 18" name="__COMPLICATION__0.17556917256121796/battery_15.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="80" start="75"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 19" name="__COMPLICATION__0.17556917256121796/battery_16.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="85" start="80"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 20" name="__COMPLICATION__0.17556917256121796/battery_17.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="90" start="85"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 21" name="__COMPLICATION__0.17556917256121796/battery_18.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="95" start="90"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 22" name="__COMPLICATION__0.17556917256121796/battery_19.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="99" start="95"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 23" name="__COMPLICATION__0.17556917256121796/battery_20.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="100" start="99"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 24" name="__COMPLICATION__0.17556917256121796/battery_warn.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="15" start="0"/>
+            </condition>
+        </image>
+        <image height="92" id="Image 25" name="__COMPLICATION__0.17556917256121796/battery_nor.png" width="92" x="197" y="88">
+            <condition source="battery">
+                <section end="100" start="15"/>
+            </condition>
+        </image>
+        <text alignment="16777216" b="140" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="BreezeSans-MediumCondensed" g="140" height="20" id="Text 2" locale="en_US" postfix=" %" r="140" size="16" source="battery.percent" style="0" text="Text" width="80" x="203" y="134"/>
+        <image a="146" action_type="open-app" height="92" id="Image 26" name="__COMPLICATION__0.17556917256121796/battery_gauge_action.png" width="92" x="197" y="88">
+            <open-app preset="battery"/>
+        </image>
+        <image a="128" action_type="open-app" height="68" id="Image 27" name="water_bg_02.png" width="68" x="209" y="199">
+            <open-app preset="water"/>
+        </image>
+        <text alignment="16777216" b="255" bitmap_font="false" custom_font="false" default_locale="en_US" font_name="Tizen" g="255" height="34" id="Text 3" locale="en_US" r="255" size="22" source="water" style="1" text="Text" width="52" x="217" y="230"/>
+        <image a="128" action_type="open-app" height="108" id="Image 28" name="caff_icon.png" width="95" x="70" y="199">
+            <open-app preset="caffeine"/>
+        </image>
+        <text alignment="16777216" b="58" bitmap_font="false" custom_font="false" default_locale="en_US" font_name="Tizen" g="109" height="36" id="Text 4" locale="en_US" r="181" size="24" source="caffeine" style="1" text="Text" width="56" x="89" y="229"/>
+    </root>
+    <root height="360" type="ambient-fullcolor" width="360" x="0" y="0">
+        <index a="128" end_angle="360.0" height="360" id="Index 360_modern" name="360_modern.png" number="1" pivot_x="180" pivot_y="180" start_angle="0.0" width="360" x="0" y="0"/>
+        <hand a="128" end_angle="720.0" end_value="24.0" height="360" id="Hand gentle_hr" name="gentle_hr.png" pivot_x="17" pivot_y="180" real="true" source="hour0-23.minute" start_angle="0.0" start_value="0.0" width="34" x="163" y="0"/>
+        <hand a="128" end_angle="360.0" end_value="60.0" height="360" id="Hand gentle_min" name="gentle_min.png" pivot_x="17" pivot_y="180" real="false" source="minute" start_angle="0.0" start_value="0.0" width="34" x="163" y="0"/>
+        <digitalclock a="128" alignment="16777216" b="255" bitmap_font="false" custom_font="false" default_locale="en_US" font_name="Tizen" g="255" height="32" id="Digitalclock 2" locale="en_US" r="255" size="24" style="0" text="dd" width="46" x="258" y="180"/>
+    </root>
+</watchface>
